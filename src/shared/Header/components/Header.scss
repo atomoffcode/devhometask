@@ -1,0 +1,96 @@
+@import '../../../assets/css/variables';
+.header{
+    width: 100%;
+    padding: 75px 162px;
+    .h-all{
+        display: flex;
+        justify-content: space-between;
+        .h-left{
+            display: flex;
+            align-items: center;
+            .logopic{
+                img{
+                    width: 36px;
+                }
+            }
+            .logo{
+                font-family: $font1;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 45px;
+                margin: 0 0 0 8px;
+            }
+        }
+        .h-middle{
+            display: flex;
+            align-items: center;
+
+            a{
+                font-family: $font1;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #274C5B;
+                margin: 0 20px;
+                text-decoration: none;
+                a{
+                    text-decoration: none;
+                    color: #274C5B;
+                }
+            }
+        }
+        .h-right{
+            display: flex;
+            align-items: center;
+            .search{
+                width: 376px;
+                padding: 5px;
+                margin: 0 18px 0 0;
+                background: #FAFAFA;
+                border-radius: 36px;
+                display: flex;
+                input{
+                    width: 100%;
+                    background: #d4d4d400;
+                    border: 0;
+                    border-radius: 100px;
+                }
+                .sicon{
+                    img{
+                        width: 56px;
+                    }
+                }
+            }
+            .cart{
+                border: 1px solid #E0E0E0;
+                border-radius: 33px; 
+                display: flex;
+                align-items: center;
+                padding: 5px 6px;
+                
+                .cicon{
+                    img{
+                        width: 56px;
+                    }
+                }
+                a{
+                    text-decoration: none;
+                    color: #000;
+                    display: inline-block;
+                } 
+                p{
+                      
+                    margin: 0 12px;
+
+                    font-family: $font1;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}
