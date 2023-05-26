@@ -19,11 +19,11 @@ export const Header = () => {
             </div>
             <div className="h-middle">
                 <Link to='/'>Home</Link>
-                <a>About</a>
-                <a>Pages</a>
+                <a href="/#">About</a>
+                <a href="/#">Pages</a>
                 <Link to='/shop'>Shop</Link>
-                <a>Projects</a>
-                <a>News</a>
+                <a href="/#">Projects</a>
+                <a href="/#">News</a>
             </div>
             <div className="h-right">
                 <div className="search">
